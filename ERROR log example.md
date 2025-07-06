@@ -1,3 +1,8 @@
+## Curl use case and Wget
+enter ``curl https://raw.githubusercontent.com/yogasetiawan11/Linux/0290f814cf31d31d84c8e9646dba77f3682f11bc/ERROR%20log%20example.md | grep ERROR
+`` This Command will present All error in program and change github.com with ``://raw.githubusercontent.com``
+
+
 - [2025-07-06 10:21:45] ERROR: Failed to connect to database: Timeout after 30 seconds
 - [2025-07-06 10:22:03] WARNING: Memory usage exceeded 85%
 - [2025-07-06 10:23:11] ERROR: User authentication failed for user 'admin'
