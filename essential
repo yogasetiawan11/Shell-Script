@@ -1,0 +1,30 @@
+#!/bin/bash 
+
+
+###########################
+#
+# author: yoga setiawan
+# date:
+# version: version
+#
+###########################
+
+
+#  difference between bash, shell, ksh, dash
+# more or less the command, the kind of shell script that you're write are simmilar but they're very slightly differ in # terms of syntax the different is like the way 
+# you writting loops in bash and ksh it is totally different bash provides easy way to write and ksh is obsolete
+# 
+# what's the different between ``#!/bin/sh`` and ``#!/bin/bash ``
+# answer: both of them are same because ``#!/bin/sh`` was redirect using the linking concept to ``#!/bin/bash `` but now it's not the same because some of 
+  the Operating system has decided to use ``#!/bin/dash`` as default so your script might not execute if you're writting in you bash scripting on a machine where bash as a default
+#
+#  set -x   # to print programe automatically
+#  df       # to print disk on vm
+#  free     # to look at how many memory that are available
+#  nproc    # to see how many cpu which vm has
+#  ps -ef   # print all of the acitivity on vm
+#  grep     # to fiter output
+#  |        # usde to get the output on the first command and send to second output
+#  curl _link_  # to retrieve any information from external source like s3, google, etc
+#
+~                                                                                                                                                                       ~                                                                                         
