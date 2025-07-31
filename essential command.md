@@ -33,7 +33,7 @@ basically Meta data has 3 main component that is:
 ``Date`` Date represent when this script is created
 ``Version`` Version represent what's version of the script has updated
 
-these are the common command that frequently use:
+# these are the common command that frequently use:
 ``set -x``: to print programe automatically
 ``df``: to print disk on vm
 ``free``: to look at how many memory that are available
