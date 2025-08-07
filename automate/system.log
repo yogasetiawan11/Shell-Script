@@ -1,0 +1,8 @@
+Aug  7 10:01:05 server-prod kernel: Linux version 5.15.0-78-generic (buildd@lcy02-amd64-100) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #85-Ubuntu SMP Mon Jul 17 11:34:03 UTC 2023
+Aug  7 10:01:05 server-prod systemd[1]: Started Network Manager.
+Aug  7 10:01:06 server-prod systemd[1]: Starting Apache2 web server...
+Aug  7 10:01:07 server-prod apache2[2543]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message.
+Aug  7 10:01:07 server-prod systemd[1]: Started Apache2 web server.
+Aug  7 10:05:01 server-prod CRON[4567]: (root) CMD (command -v anacron >/dev/null || { /usr/sbin/anacron -s || true; })
+Aug  7 10:08:15 server-prod sshd[5678]: Accepted password for admin from 203.0.113.10 port 45678 ssh2
+Aug  7 10:10:01 server-prod systemd[1]: Reloading system manager configuration.
